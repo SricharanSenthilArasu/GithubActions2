@@ -11,4 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - run: echo "Hello, World"
+      - run: |
+        echo Hello, World
+        echo pwd

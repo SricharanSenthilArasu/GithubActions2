@@ -5,6 +5,7 @@ on:
     - cron: '* * * * *'
 
 jobs:
+  time:
   runs-on: ubuntu-latest
   steps:
     - run: date --utc

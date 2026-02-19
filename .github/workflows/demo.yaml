@@ -12,8 +12,16 @@ jobs:
       - uses: actions/checkout@v4
 
       - run: |
-          echo Hello, World
-          pwd
-          whoami
-          ls
-          cat README.md
+          touch temp
+          echo "Hello, World. From build" >> temp
+
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: |
+          cat temp
+

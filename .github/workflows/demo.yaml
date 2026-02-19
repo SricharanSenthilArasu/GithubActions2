@@ -13,6 +13,7 @@ jobs:
 
       - run: |
           echo "Pushed" >> README.md
+          cat README.md
 
   test:
     runs-on: ubuntu-latest

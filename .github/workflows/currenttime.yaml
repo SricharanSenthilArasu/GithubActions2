@@ -2,11 +2,11 @@ name: Display Current Time
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: "* * * * *"
 
 jobs:
   time:
     runs-on: ubuntu-latest
-
     steps:
-      - run: date --utc
+      - name: Print current UTC time
+        run: date -u

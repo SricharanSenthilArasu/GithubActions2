@@ -16,3 +16,4 @@ jobs:
           pwd
           whoami
           ls
+          cat README.md

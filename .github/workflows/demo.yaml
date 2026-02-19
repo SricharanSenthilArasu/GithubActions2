@@ -15,3 +15,4 @@ jobs:
           echo Hello, World
           pwd
           whoami
+          ls

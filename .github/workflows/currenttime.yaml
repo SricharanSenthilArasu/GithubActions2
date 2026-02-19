@@ -1,0 +1,12 @@
+name: Display Current Time
+
+on:
+  schedule:
+    - cron: '* * * * *'
+
+jobs:
+  time:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - run: date --utc

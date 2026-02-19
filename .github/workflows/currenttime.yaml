@@ -2,7 +2,7 @@ name: Display Current Time
 
 on:
   schedule:
-    - cron: * * * * *
+    - cron: '* * * * *'
 
 jobs:
   runs-on: ubuntu-latest

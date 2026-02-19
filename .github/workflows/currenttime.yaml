@@ -3,9 +3,10 @@ name: Display Current Time
 on:
   schedule:
     - cron: "* * * * *"
+  workflow_dispatch:
 
 jobs:
-  time:
+  show-time:
     runs-on: ubuntu-latest
     steps:
       - name: Print current UTC time

@@ -6,6 +6,6 @@ on:
 
 jobs:
   time:
-  runs-on: ubuntu-latest
-  steps:
-    - run: date --utc
+    runs-on: ubuntu-latest
+    steps:
+      - run: date --utc

@@ -14,4 +14,4 @@ jobs:
         run: echo ${{vars.ABC}}
 
       - name: Print SECRET
-        run: echo ${{secret.ABC}}
+        run: echo ${{secrets.ABC}}

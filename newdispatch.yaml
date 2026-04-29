@@ -1,0 +1,11 @@
+name: Display Current Time
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show-time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print current UTC time
+        run: date -u

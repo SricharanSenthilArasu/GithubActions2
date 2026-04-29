@@ -9,3 +9,9 @@ jobs:
     steps:
       - name: Print current UTC time
         run: date -u
+
+      - name: Print Variable
+        run: echo ${{vars.ABC}}
+
+      - name: Print SECRET
+        run: echo ${{secret.ABC}}

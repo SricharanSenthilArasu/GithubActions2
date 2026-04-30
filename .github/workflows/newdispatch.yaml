@@ -11,7 +11,7 @@ jobs:
         run: date -u
 
       - name: Print Variable
-        run: echo ${{vars.MY_VAR}}
+        run: echo ${{vars.ABC}}
 
       - name: Print SECRET
-        run: echo ${{secrets.ABC}}
+        run: echo ${{secrets.AABBCC}}
